@@ -4,11 +4,12 @@
 
 .adress__item {
     display: block;
+
+    & + & {
+            margin-top: 9px;
+        }
 }
 
-.adress__item + .adress__item {
-    margin-top: 9px;
-}
 
 .adress__map-pointer {
     color: var(--white-color);
